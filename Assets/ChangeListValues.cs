@@ -5,7 +5,7 @@ public class ChangeListValues : MonoBehaviour
 {
     [SerializeField] private IntValueList _intValueList;
 
-    void Start()
+    void Awake()
     {
         if (_intValueList == null)
         {
