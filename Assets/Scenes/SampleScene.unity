@@ -975,7 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5583058dcdd0b704e98266a842a274a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _intValueList: {fileID: 0}
+  _intValueList: {fileID: 11400000, guid: 666301496bf5af141a97b436fbc3a623, type: 2}
 --- !u!114 &2042996304
 MonoBehaviour:
   m_ObjectHideFlags: 0
