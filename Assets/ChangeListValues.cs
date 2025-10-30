@@ -17,7 +17,16 @@ public class ChangeListValues : MonoBehaviour
         {
             Debug.Log("IntValueList[" + i + "] = " + _intValueList.List[i]);
         }
+    }
 
+    public void ChangeValue()
+    {
+        if (_intValueList.List.Count < 2)
+        {
+            Debug.LogError("IntValueList must have at least 2 values");
+            return;
+        }
+        
         _intValueList.List[0] = 1;
     }
 }
